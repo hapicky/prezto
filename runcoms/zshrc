@@ -13,3 +13,5 @@ fi
 # Customize to your needs...
 export GOPATH=$HOME
 export PATH="$GOPATH/bin:$PATH"
+
+eval "$(direnv hook zsh)"
